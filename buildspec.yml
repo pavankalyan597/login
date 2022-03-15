@@ -8,9 +8,3 @@ phases:
     commands:
       - npm install
       - npm run build
-      - ls
-artifacts:
-  files:
-    - '**/*'
-  base-directory: 'dist'
-  name: flow
